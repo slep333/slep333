@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website - My first post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- COPY THIS FILE for every new post (e.g. my-new-post.html), then edit the
+     title, address text, taskbar text and the content below. Add a link to it
+     on index.html. -->
+
+<div class="window">
+  <div class="titlebar">
+    <span class="icon">📝</span>
+    <span class="title">My Website - My first post</span>
+    <div class="controls"><span>_</span><span>□</span><span class="close">✕</span></div>
+  </div>
+
+  <nav class="menubar">
+    <a href="index.html">Home</a>
+    <a href="downloads.html">Downloads</a>
+    <a href="post-template.html" class="active">Sample Post</a>
+  </nav>
+
+  <div class="addressbar">
+    <span class="label">Address</span>
+    <span class="field">http://www.mywebsite.com/post-template.html</span>
+    <a class="go" href="post-template.html">Go</a>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <h3>Site Tasks</h3>
+        <div class="body">
+          <ul>
+            <li>📁 <a href="index.html">Home</a></li>
+            <li>💾 <a href="downloads.html">Downloads</a></li>
+            <li>📝 <a href="post-template.html">Sample Post</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Links</h3>
+        <div class="body">
+          <ul>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">My GitHub</a></li>
+            <li><a href="https://example.com" target="_blank" rel="noopener">Another site</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <h1>My first post</h1>
+      <div class="meta" style="color:#666;font-size:11px;">Posted 1 October 2026</div>
+
+      <p>Write your post here. Use normal paragraphs, <a href="index.html">links to other pages</a>, and links to <a href="https://example.com" target="_blank" rel="noopener">other websites</a>.</p>
+
+      <h2>A subheading</h2>
+      <p>More text. You can also use lists:</p>
+      <ul>
+        <li>First thing</li>
+        <li>Second thing</li>
+      </ul>
+
+      <blockquote>A quote or a note to yourself looks like this.</blockquote>
+
+      <pre>code or terminal output looks like this</pre>
+
+      <p>Want to share a file? <a class="btn" href="downloads.html">Go to Downloads</a></p>
+
+      <!-- An image: put the file in an images/ folder, then uncomment:
+      <img src="images/screenshot.png" alt="Screenshot">
+      -->
+    </main>
+  </div>
+
+  <div class="statusbar">
+    <span>Done</span>
+    <span>🌐 Internet</span>
+  </div>
+</div>
+
+<div class="taskbar">
+  <a class="start" href="index.html">🪟 start</a>
+  <span class="task">My Website - My first post</span>
+  <div class="tray"><span id="clock"></span></div>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>

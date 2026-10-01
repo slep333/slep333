@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website - Downloads</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="window">
+  <div class="titlebar">
+    <span class="icon">💾</span>
+    <span class="title">My Website - Downloads</span>
+    <div class="controls"><span>_</span><span>□</span><span class="close">✕</span></div>
+  </div>
+
+  <nav class="menubar">
+    <a href="index.html">Home</a>
+    <a href="downloads.html" class="active">Downloads</a>
+    <a href="post-template.html">Sample Post</a>
+  </nav>
+
+  <div class="addressbar">
+    <span class="label">Address</span>
+    <span class="field">http://www.mywebsite.com/downloads.html</span>
+    <a class="go" href="downloads.html">Go</a>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <h3>Site Tasks</h3>
+        <div class="body">
+          <ul>
+            <li>📁 <a href="index.html">Home</a></li>
+            <li>💾 <a href="downloads.html">Downloads</a></li>
+            <li>📝 <a href="post-template.html">Sample Post</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Links</h3>
+        <div class="body">
+          <ul>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">My GitHub</a></li>
+            <li><a href="https://example.com" target="_blank" rel="noopener">Another site</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <h1>Downloads</h1>
+      <p>Programs and projects I've made. Files are hosted on an external site, so the buttons open that site's download page.</p>
+
+      <!-- DOWNLOAD: copy this block for each project. Put your real link in href. -->
+      <div class="download">
+        <span class="file-icon">📦</span>
+        <div class="info">
+          <strong>Project One</strong>
+          <small>Version 1.0 · Windows · 4.2 MB</small><br>
+          A short description of what this project does.
+        </div>
+        <a class="btn primary" href="https://example.com/project-one" target="_blank" rel="noopener">Download</a>
+      </div>
+
+      <div class="download">
+        <span class="file-icon">🎮</span>
+        <div class="info">
+          <strong>Project Two</strong>
+          <small>Version 0.3 · Windows · 18 MB</small><br>
+          Another description. Change the emoji to any icon you like.
+        </div>
+        <a class="btn primary" href="https://example.com/project-two" target="_blank" rel="noopener">Download</a>
+      </div>
+
+      <fieldset>
+        <legend>Before you download</legend>
+        Files are provided as-is. Scan anything you download with an antivirus program.
+      </fieldset>
+    </main>
+  </div>
+
+  <div class="statusbar">
+    <span>2 objects</span>
+    <span>🌐 Internet</span>
+  </div>
+</div>
+
+<div class="taskbar">
+  <a class="start" href="index.html">🪟 start</a>
+  <span class="task">My Website - Downloads</span>
+  <div class="tray"><span id="clock"></span></div>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>

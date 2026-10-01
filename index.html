@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HOW TO MAKE A NEW PAGE: copy this file (or post-template.html),
+     rename it, change the <title>, the .title text, the .field text,
+     the .task text, and everything inside <div class="content">.
+     Everything else (menu, sidebar, taskbar) stays the same.
+     ============================================================ -->
+
+<div class="window">
+  <div class="titlebar">
+    <span class="icon">🏠</span>
+    <span class="title">My Website - Home</span>
+    <div class="controls"><span>_</span><span>□</span><span class="close">✕</span></div>
+  </div>
+
+  <!-- MENU: add or remove links here (keep the same list on every page) -->
+  <nav class="menubar">
+    <a href="index.html" class="active">Home</a>
+    <a href="downloads.html">Downloads</a>
+    <a href="post-template.html">Sample Post</a>
+    <!-- <a href="about.html">About</a> -->
+  </nav>
+
+  <div class="addressbar">
+    <span class="label">Address</span>
+    <span class="field">http://www.mywebsite.com/index.html</span>
+    <a class="go" href="index.html">Go</a>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <h3>Site Tasks</h3>
+        <div class="body">
+          <ul>
+            <li>📁 <a href="index.html">Home</a></li>
+            <li>💾 <a href="downloads.html">Downloads</a></li>
+            <li>📝 <a href="post-template.html">Sample Post</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Links</h3>
+        <div class="body">
+          <ul>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">My GitHub</a></li>
+            <li><a href="https://example.com" target="_blank" rel="noopener">Another site</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Details</h3>
+        <div class="body">Welcome! This site is best viewed in Internet Explorer 6.</div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <h1>Welcome to my website!</h1>
+      <p>Write a short intro about yourself or your projects here.</p>
+
+      <div class="balloon">
+        <span>💡</span>
+        <span>New downloads are available on the <a href="downloads.html">Downloads</a> page.</span>
+      </div>
+
+      <h2>Latest posts</h2>
+
+      <!-- POST: copy this whole block to add a new post summary -->
+      <article class="post">
+        <div class="meta">Posted 1 October 2026</div>
+        <h2><a href="post-template.html">My first post</a></h2>
+        <p>A short summary of the post goes here. Click through to read the rest.</p>
+      </article>
+
+      <article class="post">
+        <div class="meta">Posted 25 September 2026</div>
+        <h2><a href="post-template.html">Another post</a></h2>
+        <p>Replace this with your own text and point the link at your new page.</p>
+      </article>
+    </main>
+  </div>
+
+  <div class="statusbar">
+    <span>Done</span>
+    <span>🌐 Internet</span>
+  </div>
+</div>
+
+<div class="taskbar">
+  <a class="start" href="index.html">🪟 start</a>
+  <span class="task">My Website - Home</span>
+  <div class="tray"><span id="clock"></span></div>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
